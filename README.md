@@ -1,5 +1,8 @@
 # TestHomeWork1
 
+You can find the code here:
+TestHomeWork1/TestHomeWork - 1.playground/Contents.swift
+
 
 | Test                | Input            |Output|
 | -------------       |-------------     |-----|
