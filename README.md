@@ -28,6 +28,5 @@ Running Metrics:
 Comments:
 - Missing print out of which type of triangle it is, in the console.
 - Return type should be a string, to show which triangle it is. 
-- Code comments should be on it´s own line.
-- Code comments should be on it´s own line.
+- Code comments should be on it´s own line. 
 
