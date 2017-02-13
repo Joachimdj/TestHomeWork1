@@ -13,3 +13,19 @@ TestHomeWork1/TestHomeWork - 1.playground/Contents.swift
 | Insert some text    | 9,9,"Bird"       | Fail |
 | Is it Scalene       | 3,4,10           | Pass |
 | Is it Scalene       | 10,4,3           | Pass |
+
+
+
+# Evaluation of Jonathan Egebak Carlsen program 
+Running inspector in Netbeans:
+Controller.java
+	•	Missing Javadoc times two. 
+
+Running Metrics:
+	•	Complexity 3 
+  
+Comments:
+- Missing print out of which type of triangle it is, in the console.
+- Return type should be a string, to show which triangle it is. 
+- Code comments should be on it´s own line.
+
