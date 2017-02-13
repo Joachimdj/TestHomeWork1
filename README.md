@@ -20,10 +20,10 @@ Translated the program to Java from Swift. See TriangleProgram.java.
 # Evaluation of Jonathan Egebak Carlsen program 
 Running inspector in Netbeans:
 Controller.java
-	•	Missing Javadoc times two. 
+- Missing Javadoc times two. 
 
 Running Metrics:
-	•	Complexity 3 
+- Complexity 3 
   
 Comments:
 - Missing print out of which type of triangle it is, in the console.
