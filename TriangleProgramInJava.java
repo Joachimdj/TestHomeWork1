@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package triangleprogram;
-
-import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int;
-
+package triangleprogram; 
 /**
  *
  * @author joachimdittman
@@ -30,59 +27,39 @@ public class TriangleProgram {
     }
     
     public String isItATriangle(int a, int b, int c)
-    {
-       int result = 0;
-        //Check that it is a triangle
-    if(a == 0 || b == 0 || c == 0)
-    {
-        return "Invalid";
-    }
+    { 
+    if(a <= 0 || b <= 0 || c <= 0)
+        {
+            return "Invalid";
+        }   
     if(a + b > c || a + c > b || c + b > a)
     {
         
         //Scalene
         if(a != b && a != c && c != b)
         {
-            result = 1;
-        }
-        
+            return "Scalene";
+        } 
         //Isosceles
-        if(a == b || a == c || c == b)
+        else if(a == b || a == c || c == b)
         {
-            result = 2;
+           return "Isosceles";
         }
         //Equilateral
-        if(a == b && a == c && c == b)
+        else if(a == b && a == c && c == b)
         {
-            result = 3;
+           return "Equilateral";
         }
+            else
+       {
+          return "Invalid";
+       }  
     }
     else
     {
-        result = 0;
+      return "Invalid";
     }
-        
-        switch(result) {
-   case 0 :
-      // Statements
-      return "Scalene";
-   
-   case 1 :
-      // Statements
-     return "Isosceles";
-   case 2 :
-      // Statements 
-        return "Equilateral";
-   case 3 :
-      // Statements
-      return "Invalid"; 
-   
-      
-   // You can have any number of case statements.
-   default : // Optional
-      // Statements
-       return "Invalid";
-} 
+         
     }
     
 }
